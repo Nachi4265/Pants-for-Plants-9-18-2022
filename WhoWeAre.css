@@ -1,0 +1,494 @@
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+/* ------------------------------------------------------------------- */
+/* //Nav bar + Hero + Page Navigation:// */
+
+/* //Group Nav Bar// */
+nav{
+    display: flex;
+    padding: 2% 6% ;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 10000px;
+}
+
+
+.nav-link{
+    flex:1;
+    text-align: center;
+}
+.nav-link ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px ;
+    position: relative;
+}
+.nav-link ul li a {
+color: #F0EAD2 ;
+text-decoration: none;
+font-size: 25px;
+}
+
+
+
+.nav-link ul li :hover{
+    background-color:black;
+}
+
+
+/* //Hero img// */
+.hero{
+    background-color: rgb(198, 135, 114);
+    background-image: url(./Images/Wild-flower.webp);
+
+
+    background-size: cover;
+    color: white;
+    
+
+    /* background-blend-mode:   this blends the background img with the background color. "multiply" focuses the darker parts/colors. "lighten" focuses on the lighter parts/colors.  */
+    background-blend-mode: multiply;
+
+    padding-top: 40px;
+    padding-bottom: 100px;
+
+
+}
+
+
+.hero .container {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+
+h1 {
+    font-size: 7rem;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+
+p {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+.container {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+
+
+
+/* in-page nav */
+.about-nav {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    margin: 0;
+    list-style: none;
+    color: white;
+    /* text-decoration: none; */
+
+
+}
+
+.nav-item {
+    text-decoration: none;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    padding: 1rem;
+    font-weight: bold;
+    /* background-color: rgb(164, 163, 163); */
+
+}
+
+
+a:link, a:visited {
+    color: white;
+
+}
+
+a:hover {
+    color: blue;
+}
+
+
+
+/* ------------------------------------------------------------------- */
+/* //Section: Our Mission// */
+
+#section-ourMission {
+    padding: 1rem;
+    height: 500px;
+    /* background-color: #A98467; */
+    /* background-color: #6C584C; */
+    background-image: linear-gradient(to bottom, rgba(108, 88, 76), rgba(173, 193, 120));
+
+}
+
+.mission {
+    color: #F0EAD2;
+    font-style: italic;
+    font-size: 2rem;
+    font-family: oswald;
+
+}
+
+
+.quote {
+    font-size: 1rem;
+    font-family: oswald;
+    color: black;
+
+}
+
+.mission-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+    margin-top: 40px;
+}
+
+
+#little-pres {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    
+}
+
+
+/* ------------------------------------------------------------------- */
+/* //Section: Leadership// */
+
+#section-leadership {
+    padding: 1rem;
+    padding-top: 0;
+    
+    background-color: #ADC178;
+    background-image: linear-gradient(to bottom, rgba(173, 193, 120), rgba(240, 234, 210));
+    /* color: rgb(108, 88, 76); */
+}
+
+
+
+/* //Title and description:// */
+.lead-container {
+    display: flex;
+    flex-direction: row;
+
+}
+
+/* //"Leadership" in big letter// */
+.lead-container h2 {
+    font-size: 8rem;
+    text-align: center;
+    padding: 4rem;
+    font-style: italic;
+    letter-spacing: 10px;
+}
+
+/* //Team description// */
+.lead-container p {
+    font-size: 1.5rem;
+    font-style: italic;
+    text-align: bottom;
+    padding: 2rem;
+    align-self: flex-end;
+
+}
+
+
+
+/* //Positions and Photo Grid// */
+.leadership-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 600px;
+
+}
+
+
+#section-leadership .leadership-grid p {
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+
+.leader {
+    border-style: solid;
+    border-width: 1rem;
+    border-color: rgb(108, 88, 76);
+}
+
+/* //CEO - Daniel//*/
+.leader-img1 {
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 350px;
+    width: 100%;
+    background-image: url(./Images/ChiefExecutiveOfficer.webp);
+    background-size: cover; 
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 1rem;
+    border-color: rgb(108, 88, 76);
+}
+
+
+/* //Marketing Dir - Alexia// */
+.leader-img2 {
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 350px;
+    width: 100%;
+    background-image: url(./Images/HeadMarketingDirector_1.webp);
+    background-size: cover; 
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 1rem;
+    border-color: rgb(108, 88, 76);
+    
+
+}
+
+/* //CFO - Gustavo// */
+.leader-img3 {
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 350px;
+    width: 100%;
+    background-image: url(./Images/ChiefFinancialOfficer_1.webp);
+    background-size: cover; 
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 1rem;
+    border-color: rgb(108, 88, 76);
+}
+
+/* //Chief Advisor - Hignacio//  */
+.leader-img4 {
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 350px;
+    width: 100%;
+    background-image: url(./Images/HeadEnvironmentalAdvisor.webp);
+    background-size: cover; 
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 1rem;
+    border-color: rgb(108, 88, 76);
+}
+
+#section-leadership .leadership-grid img {
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+.position {
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+
+}
+
+
+
+/* ------------------------------------------------------------------- */
+/* //Section: Current Projects// */
+
+#section-currentProjects {
+    background-color: #ADC178;
+    background-image: linear-gradient(to bottom, rgba(240, 234, 210), rgb(173, 193, 120));
+    padding: 5rem;
+
+}
+
+.ourProjects {
+    display: flex;
+    flex-direction: column;
+    /* height: 300px; */
+}
+
+.ourProjects h3 {
+    font-size: 6rem;
+    text-align: center;
+    /* padding: 1rem; */
+    font-style: italic;
+    letter-spacing: 10px;
+    height: 20px;
+}
+
+.ourProjects p {
+    font-size: 2rem;
+    font-style: italic;
+
+}
+
+.projectPhoto-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* border-style: solid;
+    border-width: 1rem;
+    border-color: rgb(108, 88, 76); */
+
+}
+
+/* //project imgs// */
+.project1, .project2, .project3, .project4, .project5, .project6 {
+    height: 400px;
+    width: 400px;
+    background-size: cover;
+    transition: 0.25s;
+    /* overflow-x: hidden; */
+
+}
+
+
+.project1:hover, .project2:hover, .project3:hover, .project4:hover, .project5:hover, .project6:hover  {
+    box-shadow: 0 0 0 10px rgb(108, 88, 76);
+    transform: scale(1.2);
+    /* opacity: 1; */
+}
+
+
+.project1 {
+    background-image: url(./Images/garden-photo1.webp);
+}
+
+.project2 {
+    background-image: url(./Images/garden-photo2.webp);
+}
+
+.project3 {
+    background-image: url(./Images/garden-photo3.webp);
+}
+
+.project4 {
+    background-image: url(./Images/garden-photo4.webp);
+}
+
+.project5 {
+    background-image: url(./Images/garden-photo5.webp);
+}
+
+.project6 {
+    background-image: url(./Images/garden-photo6.webp);
+
+}
+
+/* //Img pop-up text - Project Names// */
+.projectName {
+    opacity: 0;
+    transform: scale(0);
+    transition: 0.8s;
+    font-size: 2rem;
+    color: white;
+}
+
+.project1:hover .projectName, .project2:hover .projectName, .project3:hover .projectName, .project4:hover .projectName, .project5:hover .projectName, .project6:hover .projectName      {
+    opacity: 1;
+    background-color: rgb(108, 88, 76);
+    transform: scale(1);
+}
+
+
+/* ------------------------------------------------------------------- */
+/* //Section: Job Opportunities// */
+
+#section-jobOpportunities {
+    background-color: rgb(133, 115, 104);
+    background-image: url(./Images/Forrest-trail.webp);
+    background-size: cover;
+    background-blend-mode: multiply;
+    padding: 1rem;
+    color: white;
+
+}
+
+.job-container h2 {
+    font-size: 6rem;
+    text-align: center;
+    letter-spacing: 5px;
+    font-style: italic;
+}
+
+.job-container p {
+    font-size: 2rem;
+    text-align: right;
+    font-style: italic;
+}
+
+.job-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.label {
+    font-size: 2rem;
+
+}
+
+#email, #name1 {
+    padding: 1rem;
+    width: 70%;
+}
+
+#upload-file {
+    padding: 1rem;
+}
+
+
+.submit-button {
+    padding: 1rem;
+    width: 30%;
+    background-color: rgb(108, 88, 76);
+    color: white;
+}
+
+
+
+/* ------------------------------------------------------------------- */
+/* //Footer// */
+
+
+
+
+
+
+
+
+
+
+
