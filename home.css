@@ -85,11 +85,12 @@ padding: 8px 12px;
   color: #F0EAD2;
 }
 
+@media only screen and (min-width: 600px){
 .text-box p {
   margin:10px 200px;
   font-size: 30px;
   color: #F0EAD2 ;
-
+}
 }
 
 .btn{
@@ -115,6 +116,7 @@ color: #6C584C;
 font-size: 50px;
 }
 
+
 .achv { 
 background-color: #F0EAD2;
 height: 50vh;
@@ -128,15 +130,16 @@ height: auto;
 
 
 
-
+@media only screen and (min-width: 600px){
 .ach {
   display: inline-flex;
   column-gap: 10px;
   padding: 20px;
   margin: 10px;
   color: #F0EAD2;
-  
 }
+}
+
 
 .ach1{
   background-color: #A98467;
@@ -172,10 +175,21 @@ height: auto;
 
 
 
-
-.stats{
+.HS{
   background-color: #F0EAD2;
+  height: 250px;
 }
+
+
+@media only screen and (min-width: 600px){
+.subheading{
+  margin: 20px;
+  padding : 10px;
+  text-align: center;
+  font-size: 25px;
+}
+}
+
 
 .flex-container {
   display: flex;
@@ -190,6 +204,12 @@ height: auto;
  color: #5A4233;
 }
 
+
+
+
+
+
+@media only screen and (min-width: 600px){
 .flex-items:nth-child(1) {
   display: block;
   flex-grow: 0;
@@ -205,7 +225,10 @@ height: auto;
   width: 200px;
 
 }
+}
 
+
+@media only screen and (min-width: 600px){
 .flex-items:nth-child(2) {
   display: block;
   flex-grow: 0;
@@ -218,9 +241,11 @@ height: auto;
   font-size: 25px;
   padding: 10px;
   width: 200px;
-
+}
 }
 
+
+@media only screen and (min-width: 600px){
 .flex-items:nth-child(3) {
   display: block;
   flex-grow: 0;
@@ -233,9 +258,10 @@ height: auto;
   font-size: 25px;
   padding: 10px;
   width: 200px;
-
+}
 }
 
+@media only screen and (min-width: 600px){
 .flex-items:nth-child(4) {
   display: block;
   flex-grow: 0;
@@ -248,10 +274,8 @@ height: auto;
   font-size: 25px;
   padding: 10px;
   width: 200px;
-
 }
-
-
+}
 
 
 
@@ -316,13 +340,4 @@ ul{
 /*footer*/
 
  
-@media screen and (max-width:1800x)
-{
-  .text-box p{
-    margin:5px 100px;
-    font-size: 10px;
-    color: #F0EAD2;
-  }
-  
 
-}
