@@ -20,10 +20,7 @@ nav{
     padding: 2% 6% ;
     justify-content: space-between;
     align-items: center;
-<<<<<<< HEAD
-=======
     bottom: 10000px;
->>>>>>> daef8090dd4524ff0e20b14faf70ec541fddb2b3
     background-color:#2C1508;
 }
 
@@ -41,15 +38,13 @@ nav{
 }
 
 .nav-link ul li a {
-<<<<<<< HEAD
+
     color: #F0EAD2 ;
     text-decoration: none;
     font-size: 35px;
-=======
-color: #F0EAD2 ;
-text-decoration: none;
-font-size: 35px;
->>>>>>> daef8090dd4524ff0e20b14faf70ec541fddb2b3
+    color: #F0EAD2 ;
+    text-decoration: none;
+    font-size: 35px;
 }
 
 .nav-link ul li :hover{
@@ -192,7 +187,7 @@ a:hover {
     /* background-color: #A98467; */
     /* background-color: #6C584C; */
     background-image: linear-gradient(to bottom, #2C1508, rgba(173, 193, 120));
-    height: 80vh;
+    height: 110vh;
 }
 
 .mission {
@@ -240,6 +235,7 @@ a:hover {
     background-image: linear-gradient(to bottom, rgba(173, 193, 120), rgba(240, 234, 210));
     /* color: rgb(108, 88, 76); */
 
+    
 }
 
 
@@ -254,7 +250,7 @@ a:hover {
 
 /* //"Leadership" in big letter// */
 .lead-container h2 {
-    font-size: 6rem;
+    font-size: 5rem;
     text-align: center;
     padding: 4rem;
     font-style: italic;
@@ -628,8 +624,6 @@ ul{
 
 /* MEDIA QUERIES  */
 
-/* @media only screen and (max-width: 320px) {
-} */
 
 @media only screen and (min-width: 1024px) {
     
