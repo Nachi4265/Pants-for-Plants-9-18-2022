@@ -85,13 +85,13 @@ padding: 8px 12px;
   color: #F0EAD2;
 }
 
-@media only screen and (min-width: 600px){
+
 .text-box p {
   margin:10px 200px;
   font-size: 30px;
   color: #F0EAD2 ;
 }
-}
+
 
 .btn{
   background-color: #F0EAD2;
@@ -130,14 +130,13 @@ height: auto;
 
 
 
-@media only screen and (min-width: 600px){
+
 .ach {
   display: inline-flex;
   column-gap: 10px;
   padding: 20px;
   margin: 10px;
   color: #F0EAD2;
-}
 }
 
 
@@ -181,14 +180,14 @@ height: auto;
 }
 
 
-@media only screen and (min-width: 600px){
+
 .subheading{
   margin: 20px;
   padding : 10px;
   text-align: center;
   font-size: 25px;
 }
-}
+
 
 
 .flex-container {
@@ -209,7 +208,6 @@ height: auto;
 
 
 
-@media only screen and (min-width: 600px){
 .flex-items:nth-child(1) {
   display: block;
   flex-grow: 0;
@@ -225,10 +223,10 @@ height: auto;
   width: 200px;
 
 }
-}
 
 
-@media only screen and (min-width: 600px){
+
+
 .flex-items:nth-child(2) {
   display: block;
   flex-grow: 0;
@@ -242,10 +240,10 @@ height: auto;
   padding: 10px;
   width: 200px;
 }
-}
 
 
-@media only screen and (min-width: 600px){
+
+
 .flex-items:nth-child(3) {
   display: block;
   flex-grow: 0;
@@ -259,9 +257,9 @@ height: auto;
   padding: 10px;
   width: 200px;
 }
-}
 
-@media only screen and (min-width: 600px){
+
+
 .flex-items:nth-child(4) {
   display: block;
   flex-grow: 0;
@@ -274,7 +272,6 @@ height: auto;
   font-size: 25px;
   padding: 10px;
   width: 200px;
-}
 }
 
 
@@ -340,4 +337,49 @@ ul{
 /*footer*/
 
  
+@media screen and (min-width :320px){
 
+  .text-box p {
+   
+    height: 25vh;
+    font-size: 1rem;
+    display: flex;
+    flex-direction:column;
+    margin:10px;
+    margin-bottom: 70px;
+  }
+
+  .ACH{
+    font-size: 40px;
+  }
+
+
+
+
+  .ach{
+    display: flex;
+    flex-direction: column;
+    column-count: 1;
+    column-gap: 20px;
+
+  }
+  .ach3 h1 {
+    font-size: 40px;
+  }
+
+  .flex-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+   
+    align-items: stretch;
+    align-content: stretch;
+    height: 1300px;
+    padding-top: 300px;
+    padding-left: 120px;
+
+  }
+
+
+
+}
