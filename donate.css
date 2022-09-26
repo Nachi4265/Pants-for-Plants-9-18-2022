@@ -5,9 +5,7 @@ margin: 0%;
 
 
 body {
-background-image: url("donate.jpg"), url("paper.gif");
-background-repeat: no-repeat, repeat;
-background-color: #cccccc;
+background-color:#F0EAD2;
 }
 
 
@@ -66,31 +64,34 @@ background-color:black;
 
 
 /*products*/
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 700px){
 .donation-container {
-padding-left: 150px;
-height: 1000px;
-width: 100px;
-font-family: 'Montserrat', sans-serif;
-font-weight: 500;
-font-size: 12px;
-text-transform: uppercase;
-margin-top: 200px;
+	height: 400px;
+	width: 600px;
+	padding-top: 50px;
+	padding-right: 90px;
+	padding-bottom: 50px;
+	padding-left: 400px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: 12px;
+	text-transform: uppercase;
 }
 }
 
-
+@media only screen and (min-width: 425px){ 
 .donation-box {
-width: 1000px;
+width: 70%;
 height: 386px;
-background-color: #A98467;
-border-top-left-radius: 4px;
-border-top-right-radius: 4px;
-position: relative;
-margin-left: 50px;
-margin-right: auto;
+	background-color: #A98467;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	position: relative;
+	margin-left: 50px;
+	margin-right: auto; 
+	justify-content: center;
 }
-
+}
 
 
 .donation-box .title {
@@ -379,13 +380,13 @@ font-style: normal;
 
 
 /*footer*/
-@media only screen and (min-width: 600px){
+
 .container{
 max-width: 1170px;
 background-color: #2C1508;
 margin: auto;
 }
-}
+
 
   
 ul{

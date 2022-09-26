@@ -51,6 +51,8 @@ background-color:black;
 	}
 
 /*PRODUCTS*/
+
+@media only screen and (min-width: 600px){
 .product-card{
 column-count: 2;
 padding: 1em;
@@ -58,7 +60,7 @@ box-shadow: none;
 text-align: center;
 font-family: "Poppins";
 }
-
+}
 
 
 .content .title {
@@ -72,13 +74,16 @@ max-width: 300px;
 border-radius: 5px;
 }
   
+
+@media only screen and (min-width: 600px){
 .card .text {
 text-align: center;
 margin-left: 2em;
 margin-bottom: 0.5em;
 font-size: 12px;
 }
-  
+}
+
 .buy-button {
 background-color: #ADC178;
 border: none;
@@ -201,5 +206,11 @@ margin: auto;
   }
   /*footer*/
   
+
+  @media screen and (max-width: 600px) {
+	.column {
+	  width: 100%;
+	}
+  }
 
 
