@@ -23,6 +23,8 @@ nav {
   padding: 2% 6%;
   justify-content: space-between;
   align-items: center;
+  background-color:#2C1508;
+  
 }
 .nav-link {
   flex: 1;
@@ -37,11 +39,19 @@ nav {
 .nav-link ul li a {
   color: #f0ead2;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 35px;
 }
 .nav-link ul li :hover {
   background-color: black;
 }
+
+.logo { 
+  display: flex;
+  height: 100px;
+  width: 100px;
+  padding: 8px 12px;
+  }
+
 
 header {
   text-align: center;
@@ -76,6 +86,7 @@ section img {
 }
 
 .planting p {
+  padding: 10px;
   margin: 180px 0px;
   text-indent: 40px;
   letter-spacing: 4px;
@@ -83,6 +94,7 @@ section img {
 }
 
 .recycle {
+  padding: 10px;
   margin: 300px 0px;
   text-indent: 40px;
   letter-spacing: 4px;
@@ -103,6 +115,7 @@ section img {
 }
 
 .yell p {
+  padding: 10px;
   margin: 180px 0px;
   text-indent: 40px;
   letter-spacing: 4px;

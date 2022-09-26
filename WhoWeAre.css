@@ -20,6 +20,10 @@ nav{
     padding: 2% 6% ;
     justify-content: space-between;
     align-items: center;
+<<<<<<< HEAD
+=======
+    bottom: 10000px;
+>>>>>>> daef8090dd4524ff0e20b14faf70ec541fddb2b3
     background-color:#2C1508;
 }
 
@@ -37,9 +41,15 @@ nav{
 }
 
 .nav-link ul li a {
+<<<<<<< HEAD
     color: #F0EAD2 ;
     text-decoration: none;
     font-size: 35px;
+=======
+color: #F0EAD2 ;
+text-decoration: none;
+font-size: 35px;
+>>>>>>> daef8090dd4524ff0e20b14faf70ec541fddb2b3
 }
 
 .nav-link ul li :hover{
@@ -66,6 +76,15 @@ nav{
 
 
 
+
+
+
+.logo { 
+    display: flex;
+    height: 100px;
+    width: 100px;
+    padding: 8px 12px;
+    }
 
 
 /* //Hero img// */
