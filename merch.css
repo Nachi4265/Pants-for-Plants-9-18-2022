@@ -1,0 +1,216 @@
+*{
+padding:0%;
+margin: 0%;
+}
+
+body{
+background-color:#F0EAD2;
+}
+
+/*NAV BARRR*/
+section{
+background-color: black;
+}
+
+nav{
+display: flex;
+padding: 2% 6% ;
+justify-content: space-between;
+align-items: center;
+background-color:#2C1508;
+}
+  
+.nav-link{
+flex:1;
+text-align: center;
+}
+  
+.nav-link ul li {
+list-style: none;
+display: inline-block;
+padding: 8px 12px ;
+position: relative;
+}
+  
+.nav-link ul li a {
+color: #F0EAD2 ;
+text-decoration: none;
+font-size: 35px;
+}
+  
+.nav-link ul li :hover{
+background-color:black;
+}
+
+
+.logo { 
+	display: flex;
+	height: 100px;
+	width: 100px;
+	padding: 8px 12px;
+	}
+
+/*PRODUCTS*/
+
+@media only screen and (min-width: 600px){
+.product-card{
+column-count: 2;
+padding: 1em;
+box-shadow: none;
+text-align: center;
+font-family: "Poppins";
+}
+}
+
+
+.content .title {
+font-size: 18px;
+font-weight: bold;
+color: #6C584C
+}
+  
+.card img {
+max-width: 300px;
+border-radius: 5px;
+}
+  
+
+@media only screen and (min-width: 600px){
+.card .text {
+text-align: center;
+margin-left: 2em;
+margin-bottom: 0.5em;
+font-size: 12px;
+}
+}
+
+.buy-button {
+background-color: #ADC178;
+border: none;
+padding: 1em;
+border-radius: 10px;
+font-weight: bold;
+width: 55%;
+}
+
+.buy-button:hover {
+color: black;
+}
+  
+
+.align-center {
+text-align: center;
+}
+
+.card img {
+transition: 0.5s ease;
+}
+  
+.card:hover img {
+transform: scale(1.1);
+transition: 1s ease;
+}
+  
+.card .details {
+position: relative;
+top: 50px;
+transition: 2s ease;
+visibility: hidden;
+opacity: 0;
+}
+  
+.card:hover .details {
+opacity: 1;
+visibility: visible;
+top: 0px;
+transition: 2s ease;
+}
+  
+.text,
+.title {
+opacity: 1;
+transition: 0.5s ease;
+}
+  
+.card:hover .text,
+.card:hover .title {
+opacity: 0;
+transition: 1 ease;
+}
+
+
+
+
+
+
+
+/*footer*/
+
+
+
+.container{
+max-width: 2000px;
+background-color: #2C1508;
+margin: auto;
+  }
+  
+  ul{
+	list-style: none;
+  }
+  
+  .row{
+	display: flex;
+	flex-wrap:wrap ;
+  }
+  .footer{
+	padding: 70px 0;
+	background-color: #2C1508;
+  }
+  
+  .footer-col{
+	width: 20%;
+	padding: 0 15px;
+  }
+  
+  
+  .footer-col h3 {
+	font-size: 24px;
+	color: #F0EAD2;
+	text-transform: capitalize;
+	margin-bottom: 30px;
+	font-weight: 500;
+	position:relative;
+  }
+  .footer-col ul li a {
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #F0EAD2;
+	text-decoration: none;
+	font-weight: 300;
+	color: #F0EAD2;
+  
+  }
+  
+  
+  .footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	margin: 0 10px 10px 0;
+	text-align: center;
+  }
+  
+  .social-links a{
+	display:flex;
+	flex-wrap: wrap;
+  }
+  /*footer*/
+  
+
+  @media screen and (max-width: 600px) {
+	.column {
+	  width: 100%;
+	}
+  }
+
+

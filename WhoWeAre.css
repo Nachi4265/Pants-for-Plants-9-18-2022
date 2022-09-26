@@ -1,0 +1,807 @@
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    min-height: 100vh;
+    min-width: 100vh;
+}
+
+
+
+/* ------------------------------------------------------------------- */
+/* //Nav bar + Hero + Page Navigation:// */
+
+/* //Group Nav Bar// */
+nav{
+    display: flex;
+    padding: 2% 6% ;
+    justify-content: space-between;
+    align-items: center;
+<<<<<<< HEAD
+=======
+    bottom: 10000px;
+>>>>>>> daef8090dd4524ff0e20b14faf70ec541fddb2b3
+    background-color:#2C1508;
+}
+
+.nav-link{
+    flex:1;
+    text-align: right;
+
+}
+
+.nav-link ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px ;
+    position: relative;
+}
+
+.nav-link ul li a {
+<<<<<<< HEAD
+    color: #F0EAD2 ;
+    text-decoration: none;
+    font-size: 35px;
+=======
+color: #F0EAD2 ;
+text-decoration: none;
+font-size: 35px;
+>>>>>>> daef8090dd4524ff0e20b14faf70ec541fddb2b3
+}
+
+.nav-link ul li :hover{
+    background-color:#5A4233;
+}
+
+.logo { 
+    display: flex;
+    height: 100px;
+    width: 100px;
+    padding: 8px 12px;
+
+}
+
+/* #logo {
+    background-color: blue;
+    border: none;
+} */
+
+
+
+
+
+
+
+
+
+
+
+.logo { 
+    display: flex;
+    height: 100px;
+    width: 100px;
+    padding: 8px 12px;
+    }
+
+
+/* //Hero img// */
+.hero{
+    background-color: rgb(198, 135, 114);
+    background-image: url(./WhoWeAreImgs/Wild-flower.webp);
+
+
+    background-size: cover;
+    color: white;
+    
+
+    /* background-blend-mode:   this blends the background img with the background color. "multiply" focuses the darker parts/colors. "lighten" focuses on the lighter parts/colors.  */
+    background-blend-mode: multiply;
+
+    padding: 2rem;
+
+
+}
+
+
+.hero .hero-container {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+
+h1 {
+    font-size: 7rem;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+p {
+    text-align: center;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+.container {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+
+
+
+
+
+
+/* in-page nav */
+.about-nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: ; */
+    gap: 10px;
+    margin: 0;
+    list-style: none;
+    color: white;
+    /* text-decoration: none; */
+
+
+}
+
+.nav-item {
+    text-decoration: none;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    padding: 1rem;
+    font-weight: bold;
+    /* background-color: rgb(164, 163, 163); */
+
+}
+
+
+a:link, a:visited {
+    color: white;
+
+}
+
+a:hover {
+    color: blue;
+}
+
+
+
+/* ------------------------------------------------------------------- */
+/* //Section: Our Mission// */
+
+#section-ourMission {
+    padding: 1rem;
+    /* height: 500px; */
+    /* background-color: #A98467; */
+    /* background-color: #6C584C; */
+    background-image: linear-gradient(to bottom, #2C1508, rgba(173, 193, 120));
+    height: 80vh;
+}
+
+.mission {
+    color: #F0EAD2;
+    font-style: italic;
+    font-size: 2rem;
+    font-family: oswald;
+
+}
+
+
+.quote {
+    font-size: 1rem;
+    font-family: oswald;
+    color: black;
+
+}
+
+.mission-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+    margin-top: 40px;
+    
+}
+
+
+#little-pres {
+    height: 20vh;
+    width: 20vh;
+    border-radius: 50%;
+    
+}
+
+
+/* ------------------------------------------------------------------- */
+/* //Section: Leadership// */
+
+#section-leadership {
+    padding: 1rem;
+    /* padding-top: 0; */
+    
+    background-color: #ADC178;
+    background-image: linear-gradient(to bottom, rgba(173, 193, 120), rgba(240, 234, 210));
+    /* color: rgb(108, 88, 76); */
+
+}
+
+
+
+/* //Title and description:// */
+.lead-container {
+    padding: 1rem;
+    /* display: flex;
+    flex-direction: row; */
+
+}
+
+/* //"Leadership" in big letter// */
+.lead-container h2 {
+    font-size: 6rem;
+    text-align: center;
+    padding: 4rem;
+    font-style: italic;
+    letter-spacing: 10px;
+    height: 2vh;
+}
+
+/* //Team description// */
+.lead-container p {
+    font-size: 1.5rem;
+    font-style: italic;
+    text-align: bottom;
+    padding: 2rem;
+    height: 20vh;
+    /* align-self: flex-end; */
+
+}
+
+
+
+/* //Positions and Photo Grid// */
+.leadership-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    justify-content: center;
+
+    gap: 10vh;
+
+    /* height: 200vh; */
+
+}
+
+
+#section-leadership .leadership-grid p {
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    /* height: 10vh; */
+    padding: 0;
+}
+
+
+.leader {
+    border-style: solid;
+    border-width: 1rem;
+    border-color: #2C1508;
+    height: 20vh;
+    width: 120vw;
+    padding: 2rem;
+
+}
+
+/* //CEO - Daniel//*/
+.leader-img1 {
+    justify-content: flex-end;
+    align-items: flex-end;
+    /* height: 350px; */
+    /* height: 80vh;
+    width: 100%; */
+    background-image: url(./WhoWeAreImgs/ChiefExecutiveOfficer.webp);
+    background-size: cover; 
+    border-width: 1rem;
+    border-style: solid;
+    border-color: #2C1508;
+
+}
+
+
+/* //Marketing Dir - Alexia// */
+.leader-img2 {
+    justify-content: flex-end;
+    align-items: flex-end;
+    /* height: 80vh;
+    width: 100%; */
+    background-image: url(./WhoWeAreImgs/HeadMarketingDirector_1.webp);
+    background-size: cover; 
+    border-width: 1rem;
+    border-style: solid;
+    border-color: #2C1508;
+    
+
+}
+
+/* //CFO - Gustavo// */
+.leader-img3 {
+    justify-content: flex-end;
+    align-items: flex-end;
+    /* height: 80vh;
+    width: 100%; */
+    background-image: url(./WhoWeAreImgs/ChiefFinancialOfficer_1.webp);
+    background-size: cover;  
+    border-width: 1rem;
+    border-style: solid;
+    border-color: #2C1508;
+}
+
+/* //Chief Advisor - Hignacio//  */
+.leader-img4 {
+    justify-content: flex-end;
+    align-items: flex-end;
+    /* height: 80vh;
+    width: 100%; */
+    background-image: url(./WhoWeAreImgs/HeadEnvironmentalAdvisor.webp);
+    background-size: cover;
+    border-width: 1rem;
+    border-style: solid;
+    border-color: #2C1508;
+}
+
+
+.leader-img1, .leader-img2, .leader-img3, .leader-img4 {
+    height: 10vh;
+    width: 15vw;
+    padding: 9rem;
+    
+
+}
+
+
+
+
+#section-leadership .leadership-grid img {
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+.position {
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+}
+
+
+
+/* ------------------------------------------------------------------- */
+/* //Section: Current Projects// */
+
+#section-currentProjects {
+    background-color: #ADC178;
+    background-image: linear-gradient(to bottom, rgba(240, 234, 210), rgb(173, 193, 120));
+    padding: 5rem;
+
+}
+
+.ourProjects {
+    display: flex;
+    flex-direction: column;
+    gap: 35vh;
+    /* height: 300px; */
+}
+
+.ourProjects h3 {
+    font-size: 6rem;
+    text-align: center;
+    /* padding: 1rem; */
+    font-style: italic;
+    letter-spacing: 10px;
+    height: 20px;
+}
+
+.ourProjects p {
+    font-size: 2rem;
+    font-style: italic;
+
+}
+
+.projectPhoto-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* border-style: solid;
+    border-width: 1rem;
+    border-color: rgb(108, 88, 76); */
+
+}
+
+/* //project imgs// */
+.project1, .project2, .project3, .project4, .project5, .project6 {
+    height: 400px;
+    width: 400px;
+    background-size: cover;
+    transition: 0.25s;
+    /* overflow-x: hidden; */
+
+}
+
+
+.project1:hover, .project2:hover, .project3:hover, .project4:hover, .project5:hover, .project6:hover  {
+    box-shadow: 0 0 0 10px #2C1508;
+    transform: scale(1.2);
+    /* opacity: 1; */
+}
+
+
+.project1 {
+    background-image: url(./WhoWeAreImgs/garden-photo1.webp);
+}
+
+.project2 {
+    background-image: url(./WhoWeAreImgs/garden-photo2.webp);
+}
+
+.project3 {
+    background-image: url(./WhoWeAreImgs/garden-photo3.webp);
+}
+
+.project4 {
+    background-image: url(./WhoWeAreImgs/garden-photo4.webp);
+}
+
+.project5 {
+    background-image: url(./WhoWeAreImgs/garden-photo5.webp);
+}
+
+.project6 {
+    background-image: url(./WhoWeAreImgs/garden-photo6.webp);
+
+}
+
+/* //Img pop-up text - Project Names// */
+.projectName {
+    opacity: 0;
+    transform: scale(0);
+    transition: 0.8s;
+    font-size: 2rem;
+    color: white;
+}
+
+.project1:hover .projectName, .project2:hover .projectName, .project3:hover .projectName, .project4:hover .projectName, .project5:hover .projectName, .project6:hover .projectName      {
+    opacity: 1;
+    background-color: #2C1508;
+    transform: scale(1);
+}
+
+
+/* ------------------------------------------------------------------- */
+/* //Section: Job Opportunities// */
+
+#section-jobOpportunities {
+    background-color: rgb(133, 115, 104);
+    background-image: url(./WhoWeAreImgs/Forrest-trail.webp);
+    background-size: cover;
+    background-blend-mode: multiply;
+    padding: 1rem;
+    color: white;
+
+}
+
+.job-container h2 {
+    font-size: 6rem;
+    text-align: center;
+    letter-spacing: 5px;
+    font-style: italic;
+}
+
+.job-container p {
+    font-size: 2rem;
+    text-align: center;
+    font-style: italic;
+}
+
+.job-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.label {
+    font-size: 2rem;
+
+}
+
+#email, #name1 {
+    padding: 1rem;
+    width: 70%;
+}
+
+#upload-file {
+    padding: 1rem;
+}
+
+
+.submit-button {
+    padding: 1rem;
+    width: 30%;
+    background-color: rgb(108, 88, 76);
+    color: white;
+}
+
+
+
+/* ------------------------------------------------------------------- */
+/* //Footer// */
+
+/*footer*/
+.container{
+    max-width: 1170px;
+    background-color: #2C1508;
+    margin: auto;
+}
+
+
+ul{
+    list-style: none;
+}
+
+.row{
+    display: flex;
+    flex-wrap:wrap ;
+}
+
+
+.footer{
+    padding: 70px 0;
+    background-color: #2C1508;
+}
+
+
+
+.footer-col{
+    width: 20%;
+    padding: 0 15px;
+}
+
+
+.footer-col h3 {
+    font-size: 24px;
+    color: #F0EAD2;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position:relative;
+}
+
+
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #F0EAD2;
+    text-decoration: none;
+    font-weight: 300;
+    color: #F0EAD2;
+
+}
+
+
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin: 0 10px 10px 0;
+    text-align: center;
+}
+
+.social-links a{
+    display:flex;
+    flex-wrap: wrap;
+}
+/*footer*/
+
+
+
+
+
+
+/* MEDIA QUERIES  */
+
+/* @media only screen and (max-width: 320px) {
+} */
+
+@media only screen and (min-width: 1024px) {
+    
+    /* Leadership section */
+    .lead-container {
+        display: flex;       
+        flex-direction: column;
+    
+    }
+
+    
+
+
+    /* //Team description// */
+    .lead-container p {
+        font-size: 1.5rem;
+        font-style: italic;
+        text-align: right;
+        padding: 2rem;
+        align-self: flex-end;
+        width: 50vw;
+
+    }
+
+    .lead-container h2 {
+        font-size: 8rem;
+        text-align: left;
+        padding: 2.5rem;
+        font-style: italic;
+        letter-spacing: 10px;
+        /* height: 2vh; */
+        /* align-self: flex-start; */
+    }
+
+
+    #section-leadership .leadership-grid p {
+        font-size: 1.8rem;
+        align-items: center;
+        justify-content: center;
+        /* height: 10vh; */
+        padding: 0;
+    }
+
+
+    .leader {
+        border-style: solid;
+        border-width: 1rem;
+        border-color: #2C1508;
+        height: 20vh;
+        width: 10vw;
+        padding: 5rem;
+    
+    }
+
+    /* .position {
+        font-style: italic;
+        font-weight: bold;
+        color: black;
+        
+    } */
+
+    .leader-img1, .leader-img2, .leader-img3, .leader-img4 {
+        height: 30vh;
+        width: 5vw;
+        padding: 9rem;
+        
+    
+    }
+
+
+    .leadership-grid {
+        display: flex;
+        flex-direction: row;
+        /* flex-wrap: wrap; */
+        /* justify-content: space-between; 
+        justify-content: center; */
+
+    
+        /* gap: 10vh; */
+    
+        /* height: 200vh; */
+    
+    }
+
+    .ourProjects {
+        display: flex;
+        flex-direction: column;
+        gap: 5vh;
+        /* height: 300px; */
+    }
+
+
+    .ourProjects h3 {
+        font-size: 4rem;
+        text-align: center;
+        /* padding: 1rem; */
+        font-style: italic;
+        letter-spacing: 10px;
+        height: 20px;
+    }
+
+}
+
+
+
+@media only screen and (min-width: 1440px) {
+
+    .space {
+        display: block;
+        padding: 5rem;
+    }
+
+    .leadership-grid {
+        display: flex;
+        flex-direction: row;
+
+        /* flex-wrap: wrap; */
+        
+        justify-content: space-evenly; 
+        justify-content: center;
+
+        
+    
+    }
+
+    .leader {
+        border-style: solid;
+        border-width: 1rem;
+        border-color: #2C1508;
+        height: 20vh;
+        width: 50vw;
+        padding: 1rem;
+    
+    }
+
+    .leader-img1, .leader-img2, .leader-img3, .leader-img4 {
+        height: 30vh;
+        width: 9vw;
+        padding: 9rem;
+    
+    }
+
+
+    .lead-container {
+        display: flex;       
+        flex-direction: column;
+        height: 40;
+    }
+
+
+
+
+    .ourProjects {
+        display: flex;
+        flex-direction: column;
+        gap: 3vh;
+        /* height: 300px; */
+    }
+
+
+
+
+    #section-ourMission {
+        padding: 1rem;
+        /* height: 500px; */
+        /* background-color: #A98467; */
+        /* background-color: #6C584C; */
+        background-image: linear-gradient(to bottom, #2C1508, rgba(173, 193, 120));
+        height: 60vh;
+    }
+
+
+
+
+}
